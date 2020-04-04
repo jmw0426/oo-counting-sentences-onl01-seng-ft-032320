@@ -30,5 +30,6 @@ end
     delimiters = ['.', '!', '...', '?']
     sentences = self.split(Regexp.union(delimiters))
     sentences.count
+    binding.pry
   end
 end
