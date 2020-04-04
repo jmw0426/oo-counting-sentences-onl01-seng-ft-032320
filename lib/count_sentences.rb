@@ -27,11 +27,10 @@ end
   end
 
   def count_sentences
-
-if self.end_with?("!" || "." || "?")
+# if self.end_with?("!" || "." || "?")
 self.split("!", ".", "?") = sentences 
 sentences.count
-puts str.split(",")
+# puts str.split(",")
   end
 end
 end
