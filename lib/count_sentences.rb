@@ -33,3 +33,4 @@ sentences = self.split
 sentences.count
   end
 end
+end
