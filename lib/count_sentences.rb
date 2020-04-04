@@ -32,5 +32,5 @@ self.split("!", ".", "?") = sentences
 sentences.count
 # puts str.split(",")
   end
-end
+# end
 end
