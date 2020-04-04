@@ -28,9 +28,9 @@ end
 
   def count_sentences
 # if self.end_with?("!" || "." || "?")
-self.scan(/|[.,!?]+/) = sentences
+self.scan(/|[.,!?]+/) 
 # self.split("!", ".", "?") = sentences 
-sentences.count
+self.count
 # puts str.split(",")
   end
 # end
