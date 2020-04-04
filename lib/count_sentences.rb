@@ -32,7 +32,7 @@ end
 # sentences = self.split(/\W+/)
 # sentences.count
 # split_everything.each_slice(2).to_a.map {|pair| pair.join}
-delimiters = [',', ' ', "'"]
+delimiters = ['!', '.', '?']
 sentences = self.split(Regexp.union(delimiters))
 sentences.count
 # self.split("!", ".", "?") = sentences 
