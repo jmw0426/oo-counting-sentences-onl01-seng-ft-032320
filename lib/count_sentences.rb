@@ -29,10 +29,12 @@ end
   def count_sentences
 # if self.end_with?("!" || "." || "?")
 # sentences = self.strip.split(/(\.|\?|\!)/)
-sentences = self.split(/\W+/)
-sentences.count
+# sentences = self.split(/\W+/)
+# sentences.count
 # split_everything.each_slice(2).to_a.map {|pair| pair.join}
-
+delimiters = [',', ' ', "'"]
+self.split(Regexp.union(delimiters))
+self.count
 # self.split("!", ".", "?") = sentences 
 
 # puts str.split(",")
