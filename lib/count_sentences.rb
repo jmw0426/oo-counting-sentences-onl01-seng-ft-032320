@@ -33,8 +33,8 @@ end
 # sentences.count
 # split_everything.each_slice(2).to_a.map {|pair| pair.join}
 delimiters = [',', ' ', "'"]
-self.split(Regexp.union(delimiters))
-self.count
+sentences = self.split(Regexp.union(delimiters))
+sentences.count
 # self.split("!", ".", "?") = sentences 
 
 # puts str.split(",")
