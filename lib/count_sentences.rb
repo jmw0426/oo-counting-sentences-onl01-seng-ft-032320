@@ -30,7 +30,7 @@ end
 # if self.end_with?("!" || "." || "?")
 self.scan(/|[.,!?]+/) 
 # self.split("!", ".", "?") = sentences 
-self.count
+
 # puts str.split(",")
   end
 # end
